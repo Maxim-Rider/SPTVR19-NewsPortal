@@ -12,7 +12,7 @@ class Controller {
         include_once 'view/category.php';
     }
 
-    public static function AllCategory() {
+    public static function AllNews() {
         $arr = News::getAllNews();
         include_once 'view/allnews.php';
     }

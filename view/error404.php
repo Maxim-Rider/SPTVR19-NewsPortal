@@ -6,5 +6,5 @@
 
 <?php 
     $content = ob_get_clean();
-    include_one 'view/layout.php';
+    include_once('view/layout.php');
 ?> 
