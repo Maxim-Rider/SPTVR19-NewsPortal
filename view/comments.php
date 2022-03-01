@@ -1,6 +1,6 @@
 <?php
 class ViewComments {
-    public static function CommentsForm{
+    public static function CommentsForm(){
         echo '
         <form action="insertcomment">
         <input type="hidden" name="id" value="'.$_GET['id'].'">
