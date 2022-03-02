@@ -3,7 +3,7 @@
 class News {
 
     public static function getLast10News() {
-        $query = "SELECT * FROM news ORDER BY id DESC LIMIT 3";
+        $query = "SELECT * FROM news123 ORDER BY id DESC LIMIT 3";
         $db = new Database();
         $arr = $db -> getAll($query);
         return $arr;
