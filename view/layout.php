@@ -23,6 +23,7 @@
                 </li>
                 <li> <a href = "testError">Info</a></li>
                 <li> <a href = "./">Main</a></li>
+                <li><a href="registerForm">Register</a></li>
             </ul>
         </nav>
 
