@@ -4,6 +4,7 @@
     require 'model/Category.php';
     require 'model/News.php';
     require 'model/Comments.php';
+    require 'model/Register.php';
 
     include_once 'view/news.php';
     include_once 'view/comments.php';
